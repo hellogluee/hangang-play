@@ -1,0 +1,8 @@
+{
+  "name": "hangang-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "한강점령기 멀티플레이 로비 서버 + WebGL 정적 서빙",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
