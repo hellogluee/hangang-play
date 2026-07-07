@@ -1,0 +1,19 @@
+{
+  "comment": "주령구(신라 14면체 주사위, 정사각형 6면 + 육각형 8면). 게임상 14면 균등 확률로 정의. 실물 제작 시 육각면이 약간 더 잘 나오는 편차는 docs/limitations 참고.",
+  "faces": [
+    { "face": 1,  "shape": "square",  "op": "move", "value": 1 },
+    { "face": 2,  "shape": "square",  "op": "move", "value": 2 },
+    { "face": 3,  "shape": "square",  "op": "move", "value": 3 },
+    { "face": 4,  "shape": "square",  "op": "move", "value": 4 },
+    { "face": 5,  "shape": "square",  "op": "move", "value": 5 },
+    { "face": 6,  "shape": "square",  "op": "move", "value": 6 },
+    { "face": 7,  "shape": "hexagon", "op": "move", "value": 2 },
+    { "face": 8,  "shape": "hexagon", "op": "move", "value": 3 },
+    { "face": 9,  "shape": "hexagon", "op": "move", "value": 4 },
+    { "face": 10, "shape": "hexagon", "op": "move", "value": 5 },
+    { "face": 11, "shape": "hexagon", "op": "move", "value": 6 },
+    { "face": 12, "shape": "hexagon", "op": "move", "value": 7 },
+    { "face": 13, "shape": "hexagon", "op": "moveChoice", "label": "축(祝) — 1~6 중 원하는 수만큼 이동" },
+    { "face": 14, "shape": "hexagon", "op": "drawEvent", "label": "명(命) — 그 자리에서 이벤트 덱 1장" }
+  ]
+}

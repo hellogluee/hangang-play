@@ -1,0 +1,48 @@
+{
+  "kings": [
+    {
+      "nation": "goguryeo",
+      "king": "장수왕",
+      "kingEn": "King Jangsu",
+      "reign": "413-491",
+      "color": "#C0392B",
+      "stats": { "military": 5, "economy": 3, "diplomacy": 5, "culture": 4 },
+      "startGold": 100,
+      "turnIncome": 15,
+      "startBonus": 20,
+      "special": { "id": "plunder", "name": "약탈", "desc": "적 점령지 통과 시 소유주에게서 20만금 약탈", "value": 20 },
+      "style": "군사·외교 압도, 첩보전"
+    },
+    {
+      "nation": "baekje",
+      "king": "근초고왕",
+      "kingEn": "King Geunchogo",
+      "reign": "346-375",
+      "color": "#2471A3",
+      "stats": { "military": 4, "economy": 5, "diplomacy": 4, "culture": 3 },
+      "startGold": 100,
+      "turnIncome": 20,
+      "startBonus": 60,
+      "special": { "id": "tradeKing", "name": "교역왕", "desc": "점령지 매입 시 10만금 할인", "value": 10 },
+      "style": "경제·교역, 해상 네트워크"
+    },
+    {
+      "nation": "silla",
+      "king": "진흥왕",
+      "kingEn": "King Jinheung",
+      "reign": "540-576",
+      "color": "#B7950B",
+      "stats": { "military": 4, "economy": 3, "diplomacy": 4, "culture": 5 },
+      "startGold": 100,
+      "turnIncome": 10,
+      "startBonus": 40,
+      "special": { "id": "cultureBloom", "name": "문화융성", "desc": "점령 칸 1개당 턴 수입 +10만금", "value": 10 },
+      "style": "문화·후반 성장, 화랑"
+    }
+  ],
+  "tilePrices": {
+    "base":        { "1": 30, "2": 50, "3": 70 },
+    "goguryeoOccupiedResale": { "1": 50, "2": 70, "3": 90 },
+    "note": "키 = 사건 참여국 수. 백제 매입 시 교역왕 -10만금은 엔진이 적용"
+  }
+}
